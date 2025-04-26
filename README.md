@@ -63,9 +63,9 @@ pip install pandas matplotlib seaborn scikit-learn
 To view the full project, including tables and visualizations, please download the repository and open the .ipynb file using Jupyter Notebook.
 
 ## Useful Links and Resources
-- [Download Python](https://www.python.org/downloads/)
-- [Download Anaconda](https://www.anaconda.com/products/individual)
-- [Heart Disease Dataset on Kaggle](https://www.kaggle.com)
+- https://www.python.org/ftp/python/3.13.3/python-3.13.3-amd64.exe
+- https://www.anaconda.com/download#
+- https://www.kaggle.com/datasets/ketangangal/heart-disease-dataset-uci
   
 ## Author
 - Prepared by [Djeghar Douniazed].
