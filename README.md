@@ -58,5 +58,8 @@ The goal is to explore the data, understand the relationships between features, 
 - The model achieved good evaluation metrics including precision, recall, and F1-score.
 - Data visualizations provided valuable insights into the patterns and relationships in the dataset.
 
+## Note:  
+To view the full project, including tables and visualizations, please download the repository and open the .ipynb file using Jupyter Notebook.
+
 ## Author
 - Prepared by [Djeghar Douniazed].
