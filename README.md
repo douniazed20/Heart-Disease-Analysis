@@ -38,8 +38,7 @@ pip install pandas matplotlib seaborn scikit-learn
 - File Name: HeartDiseaseTrain-Test.csv
 - Source: Kaggle
 - Description:  
-  Contains medical records of patients, including attributes such as age, chest pain type, maximum heart rate, and diagnosis of heart disease.
-
+  Contains medical records of patients, including attributes such as age,sex,chest_pain_type,resting_blood_pressure,cholestoral,fasting_blood_sugar,rest_ecg,Max_heart_rate,exercise_induced_angina,oldpeak,slope,vessels_colored_by_flourosopy,thalassemia, target
 ## Workflow
 1. Loading the Data:  
    Importing the dataset into a DataFrame.
