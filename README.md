@@ -68,4 +68,4 @@ To view the full project, including tables and visualizations, please download t
 - https://www.kaggle.com/datasets/ketangangal/heart-disease-dataset-uci
   
 ## Author
-- Prepared by [Djeghar Douniazed].
+- Prepared by [Djeghar Douniazed / Merahi Aya / Boudersa Manel].
