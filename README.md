@@ -1,71 +1,163 @@
-# Heart Disease Data Analysis and Prediction
+Heart Disease Data Analysis and Prediction
 
-## Overview
-This project focuses on analyzing and modeling a dataset related to heart disease using Python.  
-The goal is to explore the data, understand the relationships between features, and build a machine learning model to predict heart disease.
+🔍 Overview
 
-## Table of Contents
-- Overview
-- Project Structure
-- Technologies Used
-- Dataset Information
-- Workflow
-- Results
-- Author
+This project presents a comprehensive analysis and prediction pipeline for heart disease using Python. The aim is to derive insights from patient data and construct accurate models that can predict the presence of heart disease.
 
-## Project Structure
-- Data Exploration and Cleaning:  
-  Loading the dataset, handling categorical data, and preparing it for analysis.
-- Data Visualization:  
-  Creating plots to understand the distribution and relationships between important variables.
-- Statistical Analysis:  
-  Calculating descriptive statistics for numerical features.
-- Model Building:  
-  Training a Logistic Regression model to predict heart disease.
-- Model Evaluation:  
-  Evaluating the model’s performance using confusion matrix and classification report.
+📄 Table of Contents
 
-## Technologies Used
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-learn
-To install the required libraries, run the following command in your terminal:
-pip install pandas matplotlib seaborn scikit-learn
+Overview
 
-## Dataset Information
-- File Name: HeartDiseaseTrain-Test.csv
-- Source: Kaggle
-- Description:  
-  Contains medical records of patients, including attributes such as age,sex,chest_pain_type,resting_blood_pressure,cholestoral,fasting_blood_sugar,rest_ecg,Max_heart_rate,exercise_induced_angina,oldpeak,slope,vessels_colored_by_flourosopy,thalassemia, target
-## Workflow
-1. Loading the Data:  
-   Importing the dataset into a DataFrame.
-2. Preprocessing:  
-   Encoding categorical variables and scaling the data.
-3. Visualization:  
-   - Target distribution plot.
-   - Correlation heatmap.
-   - Age distribution plot.
-   - Scatter plot of Age vs Max Heart Rate.
-4. Model Training:  
-   Splitting the dataset into training and testing sets, and fitting a Logistic Regression model.
-5. Evaluation:  
-   Predicting the test set results and analyzing the model performance.
+Project Structure
 
-## Results
-- The Logistic Regression model was successfully trained.
-- The model achieved good evaluation metrics including precision, recall, and F1-score.
-- Data visualizations provided valuable insights into the patterns and relationships in the dataset.
+Technologies Used
 
-## Note:  
-To view the full project, including tables and visualizations, please download the repository and open the .ipynb file using Jupyter Notebook.
+Dataset Description
 
-## Useful Links and Resources
-- https://www.python.org/ftp/python/3.13.3/python-3.13.3-amd64.exe
-- https://www.anaconda.com/download#
-- https://www.kaggle.com/datasets/ketangangal/heart-disease-dataset-uci
-  
-## Author
-- Prepared by [Djeghar Douniazed / Merahi Aya / Boudersa Manel].
+Class Diagram
+
+Workflow
+
+Results and Visualizations
+
+Author
+
+🏗️ Project Structure
+
+The project consists of the following stages:
+
+1. Data Handling
+
+Load the dataset using DonneesSante class
+
+Inspect missing values and data types
+
+Encode categorical variables
+
+2. Visualization and Analysis
+
+Use the AnalyseDonnees class for:
+
+Correlation matrix heatmap
+
+Target distribution
+
+Age distribution
+
+Scatter plot: Age vs Max Heart Rate
+
+3. Modeling
+
+Logistic Regression model
+
+Decision Tree Classifier
+
+4. Evaluation
+
+Confusion matrix
+
+Classification report
+
+Performance metrics (accuracy, precision, recall, F1-score)
+
+🛠️ Technologies Used
+
+Python
+
+Pandas
+
+Matplotlib
+
+Seaborn
+
+Scikit-learn
+
+Graphviz (used to generate the class diagram)
+
+To install dependencies:
+
+pip install pandas matplotlib seaborn scikit-learn graphviz
+
+📁 Dataset Description
+
+File: HeartDiseaseTrain-Test.csv
+
+Source: Kaggle
+
+Features Include:
+
+Age, sex, chest pain type, blood pressure, cholesterol
+
+Fasting blood sugar, ECG results, max heart rate, exercise-induced angina
+
+Oldpeak, slope, vessels colored, thalassemia
+
+Target: Presence (1) or absence (0) of heart disease
+
+📐 Class Diagram
+
+Two primary classes define the structure:
+
+DonneesSante
+
+Loads and stores the dataset
+
+Provides data preview, info, statistics, and missing value summary
+
+AnalyseDonnees
+
+Takes a DataFrame and provides statistical visualizations
+
+Includes multiple plotting methods for exploring target and feature distributions
+
+The diagram is generated using Graphviz and illustrates class attributes and methods for better architectural understanding.
+
+🔄 Workflow
+
+Data Import: Read CSV file into DataFrame.
+
+Cleaning: Handle missing values, encode categorical columns.
+
+Exploration:
+
+Visualize target and numerical features
+
+Analyze correlations
+
+Modeling:
+
+Train Logistic Regression & Decision Tree Classifier
+
+Evaluation:
+
+Generate classification reports
+
+Compare model performance
+
+📊 Results and Visualizations
+
+Visualization Insights:
+
+Class imbalance and age distribution visualized
+
+Correlation heatmap revealed relationships between numerical features
+
+Scatter plots helped detect trends between variables
+
+Model Performance:
+
+Logistic Regression and Decision Tree both performed well with distinguishable metrics
+
+Decision Tree provided interpretability with slightly less generalization compared to Logistic Regression
+
+Architecture:
+
+Class diagram clearly explains the object-oriented structure of the solution
+
+📎 Full visual outputs and models are included in the Jupyter notebook. Open it with JupyterLab or Google Colab.
+
+👤 Author
+
+Name: [Djeghar Douniazed/Merahi aya/Boudersa manal]GitHub: github.com/douniazed20
+
+
